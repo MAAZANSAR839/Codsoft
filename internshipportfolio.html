@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        section {
+            background-color: #fff;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 10px 0 0;
+        }
+
+        /* About Styles */
+        #about {
+            text-align: center;
+        }
+
+        #about p {
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        /* Skills Styles */
+        #skills {
+            text-align: center;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        #skills li {
+            display: inline-block;
+            background-color: #27ae60;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        #skills li:hover {
+            background-color: #2ecc71;
+        }
+
+        /* Projects Styles */
+        #projects .project {
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #projects .project:hover img {
+            transform: scale(1.05);
+        }
+
+        #projects .project img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #projects .project h3 {
+            margin-top: 0;
+        }
+
+        #projects .project p {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+
+        /* Resume Styles */
+        #resume {
+            text-align: center;
+        }
+
+        #resume a {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        #resume a:hover {
+            background-color: #c0392b;
+        }
+
+        /* Contact Styles */
+        #contact {
+            text-align: center;
+        }
+
+        #contact p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Maaz Ansar</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="one.png" alt="Maaz"" width="100" height="120">
+        <p>I'm a passionate web developer with experience in creating modern, responsive websites and web applications. I love turning ideas into reality using the latest web technologies.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>SQL</li>
+            <li>Responsive Design</li>
+            <li>Git</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>SmartTrack</h3>
+            <img src="two.png"" width="100" height="120"> >
+            <p>"Smart Track" integrates real-time GPS vehicle tracking, student RFID attendance, and online fee management. It enables administrators to monitor vehicle location, track student attendance, and update fees through a web interface, enhancing security and efficiency in educational institutions.</p>
+        </div>
+        <div class="project">
+            <h3>E Commerce Website</h3>
+            <img src="two.png"" width="100" height="120">>
+            <p>This project involves the development of a fully functional e-commerce website using HTML, CSS, JavaScript, and React.js. The website includes features such as user authentication, product browsing, shopping cart management, and secure checkout. It also integrates with a backend server built with Node.js and Express.js to handle data storage and retrieval.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="Connor.png" target="Connor.png">here</a>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: maazansar32@email.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Maaz Ansar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

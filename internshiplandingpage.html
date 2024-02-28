@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Landing Page</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1abc9c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700; /* change color on hover */
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px;
+            text-align: center;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            background-color: #fff;
+            margin-bottom: 50px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            letter-spacing: 1px;
+        }
+
+        section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        section ul li {
+            margin-right: 30px;
+            font-size: 20px;
+        }
+
+        /* Form Styles */
+        form {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        label, input, textarea, button {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box; /* include padding in width */
+            font-size: 16px;
+            outline: none;
+        }
+
+        button {
+            background-color: #1abc9c;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #16a085; /* darker color on hover */
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #1abc9c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Enhanced Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p> We're a dynamic team of web developers and engineers committed to crafting innovative solutions. Our expertise spans web development and engineering, empowering businesses with user-friendly digital experiences that drive success</p>
+    </section>
+    <section id="services" style="background-color: #ecf0f1;">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Graphic Design</li>
+            <li>Digital Marketing</li>
+            <li>Content Creation</li>
+            <li>Social Media Management</li>
+            <li>Search Engine Optimization</li>
+            <li>Computer Engineering Solutions</li> <!-- Added Computer Engineering services -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Enhanced Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
